@@ -9,7 +9,7 @@ import fs from "fs";
     'https://www.usapowerlifting.com/calendar/?wpv_view_count=16891&country-of-event%5B%5D=US&state-of-event%5B%5D=AZ&event-level%5B%5D=&wpv-wpcf-month-of-event=&wpv_filter_submit=Search',
     'https://www.usapowerlifting.com/calendar/?wpv_view_count=16891&country-of-event%5B%5D=US&state-of-event%5B%5D=FL&event-level%5B%5D=&wpv-wpcf-month-of-event=&wpv_filter_submit=Search'
   ]
-  const browser = await puppeteer.launch()
+  const browser = await puppeteer.launch({headless: true})
   const page = await browser.newPage()
   const meets = []
   
@@ -17,7 +17,7 @@ import fs from "fs";
   for (const stateUrl of stateUrls){
     console.log(`Navigating to ${stateUrl}`)
     // let headless browser navigate to the stateUrl
-    await page.goto(stateUrl, {waitUntil: 'networkidle2'})
+    await page.goto(stateUrl)
 
     // extract basic meet information as an object from the page's HTML
     const basicMeetInfo = await page.evaluate(() => {
@@ -34,7 +34,6 @@ import fs from "fs";
         return { name, state, date, location, link}
       })
     })
-    console.log(basicMeetInfo)
     meets.push(...basicMeetInfo)
   }
 

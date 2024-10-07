@@ -1,8 +1,9 @@
 {
-  "name": "unitygridplaza",
+  "name": "findmymeet",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"cd client && vite\" \"cd server && nodemon server\"",
+    "reset": "node server/scrapers/meetsScraper.js &&  node --require dotenv server/config/reset.js",
+    "dev": "concurrently \"cd client && vite\" \"npm run reset && cd server && nodemon server\"",
     "start": "cd server && node server",
     "build": "cd client && vite build"
   },
@@ -20,6 +21,7 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
+    "@types/pg": "^8.11.10",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
