@@ -1,0 +1,613 @@
+[
+  {
+    "name": "USA Powerlifting Knight Mare Classic 2024",
+    "state": "CA",
+    "date": "Oct 5, 2024",
+    "location": "Sacramento, CA",
+    "link": "https://www.nightmaremuscle.com/events"
+  },
+  {
+    "name": "2024 USA Powerlifting STS Sunset Showdown",
+    "state": "CA",
+    "date": "Oct 19, 2024 - Oct 20, 2024",
+    "location": "San Diego, CA",
+    "link": "https://liftingcast.com/meets/mxq6yc13aab0/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Third Street Showdown",
+    "state": "CA",
+    "date": "Oct 19, 2024",
+    "location": "Sacramento, CA"
+  },
+  {
+    "name": "2024 USA Powerlifting Hidden Strength Showdown",
+    "state": "CA",
+    "date": "Oct 26, 2024 - Oct 27, 2024",
+    "location": "Irwindale, CA",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 USA Powerlifting California State Championship",
+    "state": "CA",
+    "date": "Nov 2, 2024 - Nov 3, 2024",
+    "location": "Roseville, CA",
+    "link": "https://absoluteflexappeal.com/absolute-power-events"
+  },
+  {
+    "name": "2024 USA Powerlifting Thanksgiving Throwdown",
+    "state": "CA",
+    "date": "Nov 9, 2024 - Nov 10, 2024",
+    "location": "Irvine, CA",
+    "link": "https://liftingcast.com/meets/m4mbd4exq24v/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Western Collegiate Cup Series",
+    "state": "CA",
+    "date": "Nov 16, 2024",
+    "location": "Hayward, CA",
+    "link": "http://www.bratpackproductions.com/events"
+  },
+  {
+    "name": "2024 USA Powerlifting California High School Open",
+    "state": "CA",
+    "date": "Nov 17, 2024",
+    "location": "Hayward, CA",
+    "link": "http://www.bratpackproductions.com/events"
+  },
+  {
+    "name": "USA Powerlifting 2024 Omni Fallout",
+    "state": "CA",
+    "date": "Nov 23, 2024 - Nov 24, 2024",
+    "location": "Fullerton, CA",
+    "link": "https://liftingcast.com/meets/mkiotuk0zc2l/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Bay Area Barbell’s Liftsgiving",
+    "state": "CA",
+    "date": "Nov 23, 2024",
+    "location": "Richmond, CA"
+  },
+  {
+    "name": "2024 USA Powerlifting Merry Liftmas",
+    "state": "CA",
+    "date": "Dec 14, 2024",
+    "location": "Rocklin, CA",
+    "link": "https://www.jackedculture.com/"
+  },
+  {
+    "name": "2024 USA Powerlifting Barbell Brigade Winter Finale",
+    "state": "CA",
+    "date": "Dec 21, 2024",
+    "location": "Los Angeles, CA",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 USA Powerlifting OC’s Finest",
+    "state": "CA",
+    "date": "Dec 21, 2024",
+    "location": "Anaheim, CA",
+    "link": "https://liftingcast.com/meets/mfcze6tqufd4/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting STS Winter Wars",
+    "state": "CA",
+    "date": "Jan 18, 2025 - Jan 19, 2025",
+    "location": "San Diego, CA",
+    "link": "https://liftingcast.com/meets/mkuq1sa5yb07/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Oakland Max Out",
+    "state": "CA",
+    "date": "Jan 25, 2025",
+    "location": "Oakland, CA",
+    "link": "https://liftingcast.com/meets/mj4eu5tea0ok/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Meat Day",
+    "state": "CA",
+    "date": "Feb 2, 2025",
+    "location": "Upland, CA",
+    "link": "http://fitnessundergroundofficial.com/"
+  },
+  {
+    "name": "2025 USA Powerlifting The Convoy Strength Iron Crusade",
+    "state": "CA",
+    "date": "Feb 8, 2025",
+    "location": "San Diego, CA",
+    "link": "https://liftingcast.com/meets/mgm12ymkgt4x/"
+  },
+  {
+    "name": "2025 USA Powerlifting Heartbreaker Open",
+    "state": "CA",
+    "date": "Feb 15, 2025",
+    "location": "Hayward, CA",
+    "link": "http://www.bratpackproductions.com/events"
+  },
+  {
+    "name": "2025 USA Powerlifting California State Championship",
+    "state": "CA",
+    "date": "Feb 22, 2025 - Feb 23, 2025",
+    "location": "San Diego, CA",
+    "link": "https://liftingcast.com/meets/m589pvpo5xi8/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Valkyrie Open",
+    "state": "CA",
+    "date": "Mar 8, 2025",
+    "location": "Richmond, CA"
+  },
+  {
+    "name": "2025 USA Powerlifting Make Your Own Luck Open",
+    "state": "CA",
+    "date": "Mar 15, 2025",
+    "location": "Hayward, CA",
+    "link": "http://www.bratpackproductions.com/events"
+  },
+  {
+    "name": "2025 USA Powerlifting SoCal Showdown 4",
+    "state": "CA",
+    "date": "Mar 15, 2025 - Mar 16, 2025",
+    "location": "Irvine, CA",
+    "link": "https://liftingcast.com/meets/m3n6d5m13d8d/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Hidden Strength Spring Brawl",
+    "state": "CA",
+    "date": "Mar 29, 2025 - Mar 30, 2025",
+    "location": "Irwindale, CA",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Exceed Full Send Classic III",
+    "state": "CA",
+    "date": "Apr 12, 2025 - Apr 13, 2025",
+    "location": "Anaheim, CA",
+    "link": "https://liftingcast.com/meets/mhyiqrovb8rg/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Barbell Brigade Spring Challenge",
+    "state": "CA",
+    "date": "Apr 26, 2025",
+    "location": "Los Angeles, CA",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Central California Open",
+    "state": "CA",
+    "date": "May 3, 2025",
+    "location": "Delano, CA",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting NorCal Ladies of Iron",
+    "state": "CA",
+    "date": "May 17, 2025",
+    "location": "Hayward, CA",
+    "link": "https://bratpackproductions.com/events"
+  },
+  {
+    "name": "2024 USA Powerlifting West Texas Open #6",
+    "state": "TX",
+    "date": "Oct 12, 2024",
+    "location": "Abilene, TX",
+    "link": "https://liftingcast.com/meets/mu23nzzthesp/"
+  },
+  {
+    "name": "2024 USA Powerlifting Gameday Anniversary",
+    "state": "TX",
+    "date": "Oct 19, 2024",
+    "location": "Austin, TX",
+    "link": "https://www.gamedaybarbell.com/events"
+  },
+  {
+    "name": "2024 USA Powerlifting Push/Pull for Pink",
+    "state": "TX",
+    "date": "Oct 19, 2024",
+    "location": "Austin, TX"
+  },
+  {
+    "name": "2024 USA Powerlifting TSS H-Town Showdown",
+    "state": "TX",
+    "date": "Oct 26, 2024 - Oct 27, 2024",
+    "location": "Houston, TX",
+    "link": "http://tsshouston.com/"
+  },
+  {
+    "name": "2024 USA Powerlifting Alamo City Rookie Rumble",
+    "state": "TX",
+    "date": "Nov 2, 2024",
+    "location": "San Antonio, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 6th Annual USA Powerlifting Winter War",
+    "state": "TX",
+    "date": "Nov 2, 2024",
+    "location": "Belton, TX",
+    "link": "https://liftingcast.com/meets/mhmceinsxmyg/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting RGV Fall Classic",
+    "state": "TX",
+    "date": "Nov 9, 2024",
+    "location": "Harlingen, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 USA Powerlifting TBS Houston Lift-Off",
+    "state": "TX",
+    "date": "Nov 9, 2024 - Nov 10, 2024",
+    "location": "Houston, TX",
+    "link": "https://liftingcast.com/meets/m6ygdrvy0hho/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Piney Woods Open",
+    "state": "TX",
+    "date": "Nov 16, 2024",
+    "location": "Houston, TX",
+    "link": "http://tsshouston.com/"
+  },
+  {
+    "name": "2024 USA Powerlifting Brawl in the Falls",
+    "state": "TX",
+    "date": "Nov 16, 2024",
+    "location": "Wichita Falls, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 USA Powerlifting Hook ‘Em Strength Showdown",
+    "state": "TX",
+    "date": "Nov 16, 2024",
+    "location": "Austin, TX"
+  },
+  {
+    "name": "2024 USA Powerlifting Texas Collegiate State Championship",
+    "state": "TX",
+    "date": "Nov 23, 2024 - Nov 24, 2024",
+    "location": "San Antonio, TX",
+    "link": "https://texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 USA Powerlifting Texas Open",
+    "state": "TX",
+    "date": "Dec 7, 2024 - Dec 8, 2024",
+    "location": "San Antonio, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 USA Powerlifting Southern Collegiate Cup Series",
+    "state": "TX",
+    "date": "Dec 7, 2024 - Dec 8, 2024",
+    "location": "Houston, TX",
+    "link": "http://tsshouston.com/"
+  },
+  {
+    "name": "2024 USA Powerlifting Pro Series Finals",
+    "state": "TX",
+    "date": "Dec 14, 2024 - Dec 15, 2024",
+    "location": "San Antonio, TX"
+  },
+  {
+    "name": "2024 USA Powerlifting Snap Fitness Classic",
+    "state": "TX",
+    "date": "Dec 21, 2024",
+    "location": "Athens, TX",
+    "link": "https://liftingcast.com/meets/m7umnf576e2d"
+  },
+  {
+    "name": "2024 USA Powerlifting Cougar Classic",
+    "state": "TX",
+    "date": "Dec 21, 2024",
+    "location": "Houston, TX",
+    "link": "https://liftingcast.com/meets/mhh72ej0s5l7/"
+  },
+  {
+    "name": "2024 USA Powerlifting Klash at Kindom Vol.II",
+    "state": "TX",
+    "date": "Dec 21, 2024",
+    "location": "El Paso, TX"
+  },
+  {
+    "name": "2024 USA Powerlifting Rookies and OGs",
+    "state": "TX",
+    "date": "Dec 22, 2024",
+    "location": "Houston, TX",
+    "link": "https://liftingcast.com/meets/m93sy2ynq16p/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Pinnacle Strength Summit",
+    "state": "TX",
+    "date": "Jan 4, 2025",
+    "location": "Grand Prairie, TX",
+    "link": "https://liftingcast.com/meets/m2a3blkoh5lr/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Winter Games of Texas",
+    "state": "TX",
+    "date": "Jan 11, 2025 - Jan 12, 2025",
+    "location": "Houston, TX",
+    "link": "http://tsshouston.com/"
+  },
+  {
+    "name": "2025 USA Powerlifting Texas State Championships",
+    "state": "TX",
+    "date": "Jan 18, 2025 - Jan 19, 2025",
+    "location": "San Antonio, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Aggie Showdown",
+    "state": "TX",
+    "date": "Feb 2, 2025",
+    "location": "College Station, TX"
+  },
+  {
+    "name": "2025 USA Powerlifting Winter Wrecker Classic",
+    "state": "TX",
+    "date": "Feb 15, 2025",
+    "location": "Gatesville, TX",
+    "link": "https://liftingcast.com/meets/m544a124fmy7/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting The White Lights Open",
+    "state": "TX",
+    "date": "Feb 22, 2025",
+    "location": "Allen, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Texas Strength Classic",
+    "state": "TX",
+    "date": "Mar 1, 2025 - Mar 2, 2025",
+    "location": "San Antonio, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting TBS Rodeo Open II",
+    "state": "TX",
+    "date": "Mar 8, 2025",
+    "location": "Houston, TX"
+  },
+  {
+    "name": "2025 USA Powerlifting TBS Rookie Roundup II",
+    "state": "TX",
+    "date": "Mar 9, 2025",
+    "location": "Houston, TX"
+  },
+  {
+    "name": "2025 USA Powerlifting Texas Equipped and Bench State Championships",
+    "state": "TX",
+    "date": "Mar 29, 2025 - Mar 30, 2025",
+    "location": "Houston, TX",
+    "link": "https://liftingcast.com/meets/mdylvilklzac/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Texas High School & Youth State Championships",
+    "state": "TX",
+    "date": "Apr 12, 2025 - Apr 13, 2025",
+    "location": "San Antonio, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 5th Annual Heart of Texas USA Powerlifting Meet",
+    "state": "TX",
+    "date": "Apr 26, 2025",
+    "location": "Gatesville, TX",
+    "link": "https://liftingcast.com/meets/moa9pxr2040a/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Gameday Force Awakens",
+    "state": "TX",
+    "date": "May 3, 2025",
+    "location": "Austin, TX",
+    "link": "https://www.gamedaybarbell.com/events"
+  },
+  {
+    "name": "2025 USA Powerlifting Ladies of Iron – Texas",
+    "state": "TX",
+    "date": "May 17, 2025",
+    "location": "Pflugerville, TX"
+  },
+  {
+    "name": "2025 USA Powerlifting Super Saiyan Tournament of Power",
+    "state": "TX",
+    "date": "May 17, 2025",
+    "location": "San Angelo, TX",
+    "link": "https://thebarathleticclub.com/events/"
+  },
+  {
+    "name": "2025 USA Powerlifting East Texas Open",
+    "state": "TX",
+    "date": "May 17, 2025 - May 18, 2025",
+    "location": "Houston, TX",
+    "link": "http://tsshouston.com/"
+  },
+  {
+    "name": "2025 USA Powerlifting Iron Triathlon",
+    "state": "TX",
+    "date": "May 24, 2025 - May 25, 2025",
+    "location": "San Antonio, TX",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Central Texas Classic",
+    "state": "TX",
+    "date": "Jun 7, 2025",
+    "location": "Gatesville, TX",
+    "link": "https://liftingcast.com/meets/mom5vo31d0hr/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Rumble in the Jungle",
+    "state": "TX",
+    "date": "Jun 14, 2025",
+    "location": "Baytown, TX",
+    "link": "https://liftingcast.com/meets/m1drcyk97in4/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting DBDS Pioneer Open",
+    "state": "TX",
+    "date": "Jun 14, 2025",
+    "location": "Dallas, TX",
+    "link": "https://texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Gameday Anniversary",
+    "state": "TX",
+    "date": "Oct 18, 2025",
+    "location": "Austin, TX",
+    "link": "https://www.gamedaybarbell.com/events"
+  },
+  {
+    "name": "2025 7th Annual USA Powerlifting Winter War",
+    "state": "TX",
+    "date": "Nov 8, 2025",
+    "location": "Belton, TX",
+    "link": "https://liftingcast.com/meets/mf5holsyny0p/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Arizona Fall Classic",
+    "state": "AZ",
+    "date": "Nov 2, 2024 - Nov 3, 2024",
+    "location": "Phoenix, AZ",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Southern Arizona Showdown",
+    "state": "AZ",
+    "date": "Jan 4, 2025",
+    "location": "Green Valley, AZ",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Arizona State Championships",
+    "state": "AZ",
+    "date": "Mar 15, 2025 - Mar 16, 2025",
+    "location": "Phoenix, AZ",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Route 66 Classic",
+    "state": "AZ",
+    "date": "May 10, 2025",
+    "location": "Flagstaff, AZ",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting Arizona Summer Sizzle",
+    "state": "AZ",
+    "date": "Aug 2, 2025",
+    "location": "Scottsdale, AZ",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 USA Powerlifting Superhero Open",
+    "state": "FL",
+    "date": "Oct 13, 2024",
+    "location": "Winter Park, FL",
+    "link": "https://liftingcast.com/meets/mu9yazi0hgue/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Rookie Rumble III / Open",
+    "state": "FL",
+    "date": "Nov 2, 2024",
+    "location": "Longwood,, FL",
+    "link": "https://liftingcast.com/meets/mdmd8f1747as/"
+  },
+  {
+    "name": "2024 USA Powerlifting Ghost Fall Fest 2",
+    "state": "FL",
+    "date": "Nov 3, 2024",
+    "location": "Miami, FL",
+    "link": "https://liftingcast.com/meets/mxggqdh3q9b9/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Florida Collegiate State Championship",
+    "state": "FL",
+    "date": "Nov 16, 2024",
+    "location": "Tampa, FL",
+    "link": "http://www.thecapitalcitybarbell.com/"
+  },
+  {
+    "name": "2024 USA Powerlifting Florida State Championships",
+    "state": "FL",
+    "date": "Nov 17, 2024",
+    "location": "Tampa, FL",
+    "link": "http://www.thecapitalcitybarbell.com/"
+  },
+  {
+    "name": "2024 USA Powerlifting South Florida Showdown",
+    "state": "FL",
+    "date": "Dec 7, 2024 - Dec 8, 2024",
+    "location": "Miami, FL",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2024 USA Powerlifting Greed Island Winter Saga",
+    "state": "FL",
+    "date": "Dec 7, 2024 - Dec 8, 2024",
+    "location": "Kissimmee, FL",
+    "link": "https://liftingcast.com/meets/mi7ud6ebsvji/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Primetime Power Classic",
+    "state": "FL",
+    "date": "Jan 25, 2025",
+    "location": "Hollywood, FL",
+    "link": "https://liftingcast.com/meets/mluen1vprn5a/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Ghost Strong Miami Open 2",
+    "state": "FL",
+    "date": "Feb 9, 2025",
+    "location": "Miami, FL",
+    "link": "https://liftingcast.com/meets/m4hnr4cgu802/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Central Florida Open",
+    "state": "FL",
+    "date": "Mar 1, 2025",
+    "location": "Orlando, FL",
+    "link": "http://www.texasstrengthsystems.com/pages/meets"
+  },
+  {
+    "name": "2025 USA Powerlifting BBC March Madness",
+    "state": "FL",
+    "date": "Mar 9, 2025",
+    "location": "Boyton Beach, FL"
+  },
+  {
+    "name": "2025 USA Powerlifting Swamp City Classic",
+    "state": "FL",
+    "date": "Apr 12, 2025",
+    "location": "Gainesville, FL",
+    "link": "https://www.senkaistrength.com/upcoming-events"
+  },
+  {
+    "name": "2025 USA Powerlifting Ghost Summer Slam 3",
+    "state": "FL",
+    "date": "May 18, 2025",
+    "location": "Miami, FL",
+    "link": "https://liftingcast.com/meets/m788g82ppuml/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Smash Open 5",
+    "state": "FL",
+    "date": "May 24, 2025",
+    "location": "Bonita Springs, FL",
+    "link": "https://liftingcast.com/meets/mt0qkthypyp3/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting X Ghost Florida’s Strongest 2",
+    "state": "FL",
+    "date": "Aug 17, 2025",
+    "location": "Miami, FL",
+    "link": "https://liftingcast.com/meets/mxta5yirfmi2/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting Ghost Fall Fest 3",
+    "state": "FL",
+    "date": "Nov 9, 2025",
+    "location": "Miami, FL",
+    "link": "https://liftingcast.com/meets/ms795uzsvqnn/registration"
+  }
+]
