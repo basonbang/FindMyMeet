@@ -5,4 +5,4 @@ const router = express.Router();
 
 router.get('/', MeetsController.getMeets)
 
-export default Router
+export default router
