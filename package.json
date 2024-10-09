@@ -2,8 +2,9 @@
   "name": "findmymeet",
   "type": "module",
   "scripts": {
-    "reset": "node server/scrapers/meetsScraper.js &&  node --require dotenv server/config/reset.js",
-    "dev": "concurrently \"cd client && vite\" \"npm run reset && cd server && nodemon server\"",
+    "reset": "node --require dotenv/config server/scrapers/meetsScraper.js &&  node --require dotenv server/config/reset.js",
+    "serve": "cd server && nodemon --require dotenv/config server.js",
+    "dev": "concurrently \"cd client && vite\" \"npm run reset && npm run serve\"",
     "start": "cd server && node server",
     "build": "cd client && vite build"
   },

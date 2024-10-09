@@ -1,5 +1,8 @@
+import './dotenv.js';  // Import dotenv to load the environment variables
 import { pool } from "./database.js";
 import meetsData from '../data/meets.json' assert { type: "json" }
+
+console.log('DATABASE_URL:', process.env.DATABASE_URL);  // Log to verify the correct URL is loaded
 
 const createMeetsTable = async () => {
   const createTableQuery = `
@@ -14,6 +17,7 @@ const createMeetsTable = async () => {
     )
   `
   try {
+    console.log('Attempting to create the table...');
     const res = await pool.query(createTableQuery)
     console.log(`🍾 Created the meets table`);
   } catch (error) {

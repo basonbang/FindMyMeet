@@ -9,7 +9,7 @@ import fs from "fs";
     'https://www.usapowerlifting.com/calendar/?wpv_view_count=16891&country-of-event%5B%5D=US&state-of-event%5B%5D=AZ&event-level%5B%5D=&wpv-wpcf-month-of-event=&wpv_filter_submit=Search',
     'https://www.usapowerlifting.com/calendar/?wpv_view_count=16891&country-of-event%5B%5D=US&state-of-event%5B%5D=FL&event-level%5B%5D=&wpv-wpcf-month-of-event=&wpv_filter_submit=Search'
   ]
-  const browser = await puppeteer.launch({headless: true})
+  const browser = await puppeteer.launch({headless: false})
   const page = await browser.newPage()
   const meets = []
   

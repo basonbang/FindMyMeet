@@ -7,17 +7,17 @@
     "link": "https://www.nightmaremuscle.com/events"
   },
   {
-    "name": "2024 USA Powerlifting Third Street Showdown",
-    "state": "CA",
-    "date": "Oct 19, 2024",
-    "location": "Sacramento, CA"
-  },
-  {
     "name": "2024 USA Powerlifting STS Sunset Showdown",
     "state": "CA",
     "date": "Oct 19, 2024 - Oct 20, 2024",
     "location": "San Diego, CA",
     "link": "https://liftingcast.com/meets/mxq6yc13aab0/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Third Street Showdown",
+    "state": "CA",
+    "date": "Oct 19, 2024",
+    "location": "Sacramento, CA"
   },
   {
     "name": "2024 USA Powerlifting Hidden Strength Showdown",
@@ -193,17 +193,17 @@
     "link": "https://liftingcast.com/meets/mu23nzzthesp/"
   },
   {
-    "name": "2024 USA Powerlifting Push/Pull for Pink",
-    "state": "TX",
-    "date": "Oct 19, 2024",
-    "location": "Austin, TX"
-  },
-  {
     "name": "2024 USA Powerlifting Gameday Anniversary",
     "state": "TX",
     "date": "Oct 19, 2024",
     "location": "Austin, TX",
     "link": "https://www.gamedaybarbell.com/events"
+  },
+  {
+    "name": "2024 USA Powerlifting Push/Pull for Pink",
+    "state": "TX",
+    "date": "Oct 19, 2024",
+    "location": "Austin, TX"
   },
   {
     "name": "2024 USA Powerlifting TSS H-Town Showdown",
@@ -288,12 +288,6 @@
     "location": "San Antonio, TX"
   },
   {
-    "name": "2024 USA Powerlifting Klash at Kindom Vol.II",
-    "state": "TX",
-    "date": "Dec 21, 2024",
-    "location": "El Paso, TX"
-  },
-  {
     "name": "2024 USA Powerlifting Snap Fitness Classic",
     "state": "TX",
     "date": "Dec 21, 2024",
@@ -306,6 +300,12 @@
     "date": "Dec 21, 2024",
     "location": "Houston, TX",
     "link": "https://liftingcast.com/meets/mhh72ej0s5l7/"
+  },
+  {
+    "name": "2024 USA Powerlifting Klash at Kindom Vol.II",
+    "state": "TX",
+    "date": "Dec 21, 2024",
+    "location": "El Paso, TX"
   },
   {
     "name": "2024 USA Powerlifting Rookies and OGs",
@@ -437,18 +437,18 @@
     "link": "https://liftingcast.com/meets/mom5vo31d0hr/registration"
   },
   {
-    "name": "2025 USA Powerlifting DBDS Pioneer Open",
-    "state": "TX",
-    "date": "Jun 14, 2025",
-    "location": "Dallas, TX",
-    "link": "https://texasstrengthsystems.com/pages/meets"
-  },
-  {
     "name": "2025 USA Powerlifting Rumble in the Jungle",
     "state": "TX",
     "date": "Jun 14, 2025",
     "location": "Baytown, TX",
     "link": "https://liftingcast.com/meets/m1drcyk97in4/registration"
+  },
+  {
+    "name": "2025 USA Powerlifting DBDS Pioneer Open",
+    "state": "TX",
+    "date": "Jun 14, 2025",
+    "location": "Dallas, TX",
+    "link": "https://texasstrengthsystems.com/pages/meets"
   },
   {
     "name": "2025 USA Powerlifting Gameday Anniversary",
