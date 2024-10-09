@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react'
-// import LocationsAPI from '../services/LocationsAPI'
+import MeetsAPI from '../services/MeetsAPI'
 // import unitygrid from '../assets/unitygrid.jpg'
 import '../css/Locations.css'
 
 const Locations = () => {
 
-    const [locations, setLocations] = useState([])
+    const [states, setStates] = useState([])
     const [venueNames, setVenueNames] = useState({venue1: '', venue2: '', venue3: '', venue4: ''})
 
     useEffect(() => {
         (async () => {
             try {
-                // const locationsData = await LocationsAPI.getAllLocations()
-                // setLocations(locationsData)
+                // const statesData = await MeetsAPI.getAllStates()
+                // setStates(statesData)
 
-                // setVenueNames({venue1: locationsData[0].name, venue2: locationsData[1].name, venue3: locationsData[2].name, venue4: locationsData[3].name})
+                // setVenueNames({venue1: statesData[0].name, venue2: statesData[1].name, venue3: statesData[2].name, venue4: statesData[3].name})
                 setListeners()
             }
             catch (error) {

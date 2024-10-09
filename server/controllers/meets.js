@@ -1,5 +1,16 @@
 import { pool } from "../config/database.js";
 
+const getStates = async (req, res) => {
+  try {
+    const query = `SELECT DISTINCT state FROM meets ORDER BY state`
+    const states = await pool.query(query)
+    res.status(200).json(states.rows)
+  } catch (error) {
+    console.log(`Error fetching states: ${error.stack}`);
+    res.send(409).json({ message: error.message})
+  }
+}
+
 const getMeets = async (req, res) => {
   try {
     console.log('Connecting  to the database...');
@@ -42,6 +53,7 @@ const getMeetsByState = async (req, res) => {
 }
 
 export default {
+  getStates,
   getMeets,
   getMeetsByState,
   getNumberOfMeetsForState

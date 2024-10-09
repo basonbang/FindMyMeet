@@ -7,17 +7,17 @@
     "link": "https://www.nightmaremuscle.com/events"
   },
   {
+    "name": "2024 USA Powerlifting Third Street Showdown",
+    "state": "CA",
+    "date": "Oct 19, 2024",
+    "location": "Sacramento, CA"
+  },
+  {
     "name": "2024 USA Powerlifting STS Sunset Showdown",
     "state": "CA",
     "date": "Oct 19, 2024 - Oct 20, 2024",
     "location": "San Diego, CA",
     "link": "https://liftingcast.com/meets/mxq6yc13aab0/registration"
-  },
-  {
-    "name": "2024 USA Powerlifting Third Street Showdown",
-    "state": "CA",
-    "date": "Oct 19, 2024",
-    "location": "Sacramento, CA"
   },
   {
     "name": "2024 USA Powerlifting Hidden Strength Showdown",
@@ -573,7 +573,8 @@
     "name": "2025 USA Powerlifting BBC March Madness",
     "state": "FL",
     "date": "Mar 9, 2025",
-    "location": "Boyton Beach, FL"
+    "location": "Boyton Beach, FL",
+    "link": "https://liftingcast.com/meets/m1qadej1e06c/registration"
   },
   {
     "name": "2025 USA Powerlifting Swamp City Classic",
