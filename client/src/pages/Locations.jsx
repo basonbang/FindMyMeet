@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import MeetsAPI from '../services/MeetsAPI'
+import MeetsAPI from '../../services/MeetsAPI' 
 // import unitygrid from '../assets/unitygrid.jpg'
 import '../css/Locations.css'
 
@@ -11,10 +11,9 @@ const Locations = () => {
     useEffect(() => {
         (async () => {
             try {
-                // const statesData = await MeetsAPI.getAllStates()
-                // setStates(statesData)
-
-                // setVenueNames({venue1: statesData[0].name, venue2: statesData[1].name, venue3: statesData[2].name, venue4: statesData[3].name})
+                const statesData = await MeetsAPI.getAllStates()
+                setStates(statesData)
+                setVenueNames({venue1: statesData[0].name, venue2: statesData[1].name, venue3: statesData[2].name, venue4: statesData[3].name})
                 setListeners()
             }
             catch (error) {

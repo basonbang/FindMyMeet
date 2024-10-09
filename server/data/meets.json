@@ -7,17 +7,17 @@
     "link": "https://www.nightmaremuscle.com/events"
   },
   {
-    "name": "2024 USA Powerlifting Third Street Showdown",
-    "state": "CA",
-    "date": "Oct 19, 2024",
-    "location": "Sacramento, CA"
-  },
-  {
     "name": "2024 USA Powerlifting STS Sunset Showdown",
     "state": "CA",
     "date": "Oct 19, 2024 - Oct 20, 2024",
     "location": "San Diego, CA",
     "link": "https://liftingcast.com/meets/mxq6yc13aab0/registration"
+  },
+  {
+    "name": "2024 USA Powerlifting Third Street Showdown",
+    "state": "CA",
+    "date": "Oct 19, 2024",
+    "location": "Sacramento, CA"
   },
   {
     "name": "2024 USA Powerlifting Hidden Strength Showdown",
@@ -213,6 +213,13 @@
     "link": "http://tsshouston.com/"
   },
   {
+    "name": "2024 6th Annual USA Powerlifting Winter War",
+    "state": "TX",
+    "date": "Nov 2, 2024",
+    "location": "Belton, TX",
+    "link": "https://liftingcast.com/meets/mhmceinsxmyg/registration"
+  },
+  {
     "name": "2024 USA Powerlifting Alamo City Rookie Rumble",
     "state": "TX",
     "date": "Nov 2, 2024",
@@ -220,11 +227,11 @@
     "link": "http://www.texasstrengthsystems.com/pages/meets"
   },
   {
-    "name": "2024 6th Annual USA Powerlifting Winter War",
+    "name": "2024 USA Powerlifting TBS Houston Lift-Off",
     "state": "TX",
-    "date": "Nov 2, 2024",
-    "location": "Belton, TX",
-    "link": "https://liftingcast.com/meets/mhmceinsxmyg/registration"
+    "date": "Nov 9, 2024 - Nov 10, 2024",
+    "location": "Houston, TX",
+    "link": "https://liftingcast.com/meets/m6ygdrvy0hho/registration"
   },
   {
     "name": "2024 USA Powerlifting RGV Fall Classic",
@@ -234,11 +241,10 @@
     "link": "http://www.texasstrengthsystems.com/pages/meets"
   },
   {
-    "name": "2024 USA Powerlifting TBS Houston Lift-Off",
+    "name": "2024 USA Powerlifting Hook ‘Em Strength Showdown",
     "state": "TX",
-    "date": "Nov 9, 2024 - Nov 10, 2024",
-    "location": "Houston, TX",
-    "link": "https://liftingcast.com/meets/m6ygdrvy0hho/registration"
+    "date": "Nov 16, 2024",
+    "location": "Austin, TX"
   },
   {
     "name": "2024 USA Powerlifting Piney Woods Open",
@@ -253,12 +259,6 @@
     "date": "Nov 16, 2024",
     "location": "Wichita Falls, TX",
     "link": "http://www.texasstrengthsystems.com/pages/meets"
-  },
-  {
-    "name": "2024 USA Powerlifting Hook ‘Em Strength Showdown",
-    "state": "TX",
-    "date": "Nov 16, 2024",
-    "location": "Austin, TX"
   },
   {
     "name": "2024 USA Powerlifting Texas Collegiate State Championship",
@@ -403,12 +403,6 @@
     "link": "https://www.gamedaybarbell.com/events"
   },
   {
-    "name": "2025 USA Powerlifting Ladies of Iron – Texas",
-    "state": "TX",
-    "date": "May 17, 2025",
-    "location": "Pflugerville, TX"
-  },
-  {
     "name": "2025 USA Powerlifting Super Saiyan Tournament of Power",
     "state": "TX",
     "date": "May 17, 2025",
@@ -421,6 +415,12 @@
     "date": "May 17, 2025 - May 18, 2025",
     "location": "Houston, TX",
     "link": "http://tsshouston.com/"
+  },
+  {
+    "name": "2025 USA Powerlifting Ladies of Iron – Texas",
+    "state": "TX",
+    "date": "May 17, 2025",
+    "location": "Pflugerville, TX"
   },
   {
     "name": "2025 USA Powerlifting Iron Triathlon",

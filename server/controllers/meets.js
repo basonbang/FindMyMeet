@@ -2,6 +2,7 @@ import { pool } from "../config/database.js";
 
 const getStates = async (req, res) => {
   try {
+    console.log('DATABASE_URL:', process.env.DATABASE_URL);
     const query = `SELECT DISTINCT state FROM meets ORDER BY state`
     const states = await pool.query(query)
     res.status(200).json(states.rows)
