@@ -29,9 +29,10 @@ import fs from "fs";
         const date = meetTitleContainer.querySelector('.event-date').innerText
 
         const meetBodyContainer = meetElement.querySelector('.vc_tta-panel-body').firstElementChild.firstElementChild
+        const image = meetBodyContainer.querySelector('.event-thumb').querySelector('img').src
         const location = meetBodyContainer.querySelector('.event-info').innerHTML.split('<br>')[2].split("Location: ")[1].trim()
         const link = meetBodyContainer.querySelector('.event-button').querySelector('a')?.href
-        return { name, state, date, location, link}
+        return { name, state, date, image, location, link}
       })
     })
     meets.push(...basicMeetInfo)

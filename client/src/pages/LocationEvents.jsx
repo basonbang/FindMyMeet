@@ -1,36 +1,47 @@
 import React, { useState, useEffect } from 'react'
 import Event from '../components/Event'
+import MeetsAPI from '../../services/MeetsAPI'
 import '../css/LocationEvents.css'
 
 const LocationEvents = ({index}) => {
     const [location, setLocation] = useState([])
-    const [events, setEvents] = useState([])
+    const [numberOfMeets, setNumberOfMeets] = useState()
+    const [meets, setMeets] = useState([])
+    
+    useEffect(()  => {
+        (async () => {
+            try {
+                const response = await MeetsAPI.getEventsByState(index)
+                setLocation(index)
+                setNumberOfMeets(response.numberOfMeets)
+                setMeets(response.meets)
+            } catch (error) {
+                throw error
+            }
+        })()
+    }, [])
 
     return (
         <div className='location-events'>
             <header>
-                <div className='location-image'>
-                    <img src={location.image} />
-                </div>
-
                 <div className='location-info'>
-                    <h2>{location.name}</h2>
-                    <p>{location.address}, {location.city}, {location.state} {location.zip}</p>
+                    <h2>{location}</h2>
+                    <p>Number of Meets: {numberOfMeets}</p>
                 </div>
             </header>
 
             <main>
                 {
-                    events && events.length > 0 ? events.map((event, index) =>
+                    meets && meets.length > 0 ? meets.map((meet, index) =>
                         <Event
-                            key={event.id}
-                            id={event.id}
-                            title={event.title}
-                            date={event.date}
-                            time={event.time}
-                            image={event.image}
+                            key={meet.id}
+                            id={meet.id}
+                            name={meet.name}
+                            date={meet.date}
+                            state={meet.state}
+                            location={meet.location}
                         />
-                    ) : <h2><i className="fa-regular fa-calendar-xmark fa-shake"></i> {'No events scheduled at this location yet!'}</h2>
+                    ) : <h2><i className="fa-regular fa-calendar-xmark fa-shake"></i> {'No meets scheduled at this state yet!'}</h2>
                 }
             </main>
         </div>

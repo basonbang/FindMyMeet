@@ -13,6 +13,7 @@ const createMeetsTable = async () => {
       state VARCHAR(20) NOT NULL,
       date VARCHAR(255) NOT NULL,
       location VARCHAR(255) NOT NULL,
+      image TEXT,
       link TEXT
     )
   `
@@ -30,8 +31,8 @@ const seedMeetsTable = async () => {
 
   meetsData.forEach((meet) => {
     const insertMeetQuery = `
-      INSERT INTO meets (name, state, date, location, link) 
-      VALUES ($1, $2, $3, $4, $5) 
+      INSERT INTO meets (name, state, date, location, image, link) 
+      VALUES ($1, $2, $3, $4, $5, $6) 
       ON CONFLICT DO NOTHING
     `;
     const values = [
@@ -39,6 +40,7 @@ const seedMeetsTable = async () => {
       meet.state,
       meet.date,
       meet.location,
+      meet.image,
       meet.link || null,
     ];
 

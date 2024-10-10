@@ -24,6 +24,19 @@ const getEventsByState = async (state) => {
   }
 }
 
+// fetch a meet by ID
+const getEventByID = async (id) => {
+  try {
+    console.log('Attempting to fetch from the server...');
+    const response = await fetch(`http://localhost:3000/api/meets/${id}`)
+    const meets = await response.json()
+    console.log(`Successfully fetched event by ID from the server! ${meets}`);
+    return meets
+  } catch (error) {
+    console.log(`❌ Error fetching events by ID => ${error.message}`);
+  }
+}
+
 // fetch all states
 const getAllStates = async () => {
   try {
@@ -45,5 +58,6 @@ const getAllStates = async () => {
 export default {
   getAllEvents,
   getEventsByState,
-  getAllStates
+  getAllStates,
+  getEventByID
 }
