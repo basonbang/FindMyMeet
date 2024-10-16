@@ -34,14 +34,14 @@ const App = () => {
   ])
 
   return (
-    <div className='app'>
+    <div className='font-sans'>
 
-      <header className='main-header'>
+      <header className='main-header pb-14 w-full shadow-lg border-b'>
         <h1>FindMyMeet</h1>
 
-        <div className='header-buttons'>
-          <Link to='/' role='button'>Home</Link>
-          <Link to='/events' role='button'>Events</Link>
+        <div className='header-buttons space-x-4'>
+          <Link to='/' role='button' className='transform transition-transform duration-300 hover:scale-110'>Home</Link>
+          <Link to='/events' role='button' className='transform transition-transform duration-300 hover:scale-110'>Events</Link>
         </div>
       </header>
 

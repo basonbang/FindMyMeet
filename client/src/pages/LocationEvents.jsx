@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Event from '../components/Event'
-import MeetsAPI from '../../services/MeetsAPI'
+import MeetsAPI from '../services/MeetsAPI'
 import '../css/LocationEvents.css'
 
 const LocationEvents = ({index}) => {
@@ -23,14 +23,14 @@ const LocationEvents = ({index}) => {
 
     return (
         <div className='location-events'>
-            <header>
+            <header className='px-8 '>
                 <div className='location-info'>
-                    <h2>{location}</h2>
-                    <p>Number of Meets: {numberOfMeets}</p>
+                    <h2 className='text-2xl font-bold mb-2'>{location}</h2>
+                    <p className='text-lg'>Number of Meets: {numberOfMeets}</p>
                 </div>
             </header>
 
-            <main>
+            <main className='p-4'>
                 {
                     meets && meets.length > 0 ? meets.map((meet, index) =>
                         <Event
@@ -41,7 +41,7 @@ const LocationEvents = ({index}) => {
                             state={meet.state}
                             location={meet.location}
                         />
-                    ) : <h2><i className="fa-regular fa-calendar-xmark fa-shake"></i> {'No meets scheduled at this state yet!'}</h2>
+                    ) : <h2 className='text-center'><i className="fa-regular fa-calendar-xmark fa-shake"></i> {'No meets scheduled at this state yet!'}</h2>
                 }
             </main>
         </div>

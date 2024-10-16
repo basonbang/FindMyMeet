@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRe } from 'react'
+import React, { useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
-import MeetsAPI from '../../services/MeetsAPI' 
-import '../css/Locations.css'
+import MeetsAPI from '../services/MeetsAPI' 
 
 const Locations = () => {
 
@@ -12,9 +11,14 @@ const Locations = () => {
     useEffect(() => {
         (async () => {
             try {
-                const statesData = await MeetsAPI.getAllStates()
+                const statesData = await MeetsAPI.getAllStates()                
                 setStates(statesData)
-                setStateNames({state1: statesData[0].state, state2: statesData[1].state, state3: statesData[2].state, state4: statesData[3].state})
+                setStateNames({
+                  state1: statesData[0].state,
+                  state2: statesData[1].state,
+                  state3: statesData[2].state,
+                  state4: statesData[3].state,
+                });
             }
             catch (error) {
                 throw error
@@ -24,34 +28,34 @@ const Locations = () => {
 
 
     return (
-        <div className='available-locations'>
-            <div id='venue1button' className='venue1-button-overlay'>
+        <div className='flex justify-center flex-wrap p-6'>
+            <div id='venue1button' className='flex flex-col justify-between w-52 uppercase font-bold m-4 p-4 border-2 rounded-lg shadow-lg bg-[--primary]'>
                 <Link to={`/states/${stateNames.state1}`}>
-                    <img src="../../arizona-removebg-preview.png" alt="" />
+                    <img src="../../arizona-removebg-preview.png" className='w-full h-44 mb-2 transform transition-transform duration-300 hover:scale-110'/>
                 </Link>
-                <p>{stateNames.state1}</p>
+                <p className='text-center text-white font-bold text-lg'>{stateNames.state1}</p>
             </div>
 
-            <div id='venue2button' className='venue2-button-overlay'>
+            <div id='venue2button' className='flex flex-col justify-between w-52 uppercase font-bold m-4 p-4 border-2 rounded-lg shadow-lg bg-[--primary]'>
                 <Link to={`/states/${stateNames.state2}`}>
-                    <img src="../../california-removebg-preview.png" alt="" />
+                    <img src="../../california-removebg-preview.png" className='w-full h-44 mb-2 transform transition-transform duration-300 hover:scale-110' />
                 </Link>
-                <p>{stateNames.state2}</p>
+                <p className='text-center text-white font-bold text-lg'>{stateNames.state2}</p>
             </div>
 
-            <div id='venue3button' className='venue3-button-overlay'>
+            <div id='venue3button' className='flex flex-col justify-between w-52 uppercase font-bold m-4 p-4 border-2 rounded-lg shadow-lg bg-[--primary]'>
                 
                 <Link to={`/states/${stateNames.state3}`}>
-                    <img src="../../florida-map-isolated-on-transparent-260nw-654437647-removebg-preview.png" alt="" />
+                    <img src="../../florida-map-isolated-on-transparent-260nw-654437647-removebg-preview.png" className='w-full h-44 mb-2 transform transition-transform duration-300 hover:scale-110' />
                 </Link>
-                <p>{stateNames.state3}</p>
+                <p className='text-center text-white font-bold text-lg'>{stateNames.state3}</p>
             </div>
 
-            <div id='venue4button' className='venue4-button-overlay'>
-                <Link to={`/states/${stateNames.venue4}`}>
-                    <img src="../../texas-removebg-preview.png" alt="" />
+            <div id='venue4button' className='flex flex-col justify-between w-52 uppercase font-bold m-4 p-4 border-2 rounded-lg shadow-lg bg-[--primary]'>
+                <Link to={`/states/${stateNames.state4}`}>
+                    <img src="../../texas-removebg-preview.png" className='w-full h-44 mb-2 transform transition-transform duration-300 hover:scale-110' />
                 </Link>
-                <p>{stateNames.state4}</p>
+                <p className='text-center text-white font-bold text-lg'>{stateNames.state4}</p>
             </div>
         </div>
     )
