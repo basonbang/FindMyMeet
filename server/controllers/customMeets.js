@@ -125,3 +125,11 @@ const getCustomMeetByID = async (req, res) => {
     res.status(409).json({ message: error.message })
   }
 }
+
+export default {
+  createCustomMeet,
+  updateCustomMeet,
+  deleteCustomMeet,
+  getCustomMeets,
+  getCustomMeetByID
+}

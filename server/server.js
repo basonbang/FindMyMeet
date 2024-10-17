@@ -7,6 +7,7 @@ import cors from 'cors'
 // import the router from your routes file
 import meetsRouter from './routes/meets.js'
 import statesRouter from './routes/states.js'
+import customMeetsRouter from './routes/customMeets.js'
 
 const PORT = process.env.PORT || 3000
 
@@ -26,6 +27,7 @@ else if (process.env.NODE_ENV === 'production') {
 // specify the api path for the server to use
 app.use('/api/meets', meetsRouter)
 app.use('/api/states', statesRouter)
+app.use('/api/custom-meets', customMeetsRouter)
 
 // serve main entry point for application
 app.get('/', (req, res) => {
