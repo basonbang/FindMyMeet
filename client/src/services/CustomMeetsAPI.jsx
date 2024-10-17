@@ -2,7 +2,7 @@ const getAllCustomMeets = async () => {
   try {
     console.log('Attempting to fetch from the server...');
     const response = await fetch(`http://localhost:3000/api/custom-meets`)
-    const data = response.json()
+    const data = await response.json()
     console.log(`Successfully fetched all custom meets from the server! ${data}`);
     return data
   } catch (error) {
@@ -14,7 +14,7 @@ const getCustomMeetByID = async (id) => {
   try {
     log.info('Attempting to fetch from the server...');
     const response = await fetch(`http://localhost:3000/api/custom-meets/${id}`)
-    const data = response.json()
+    const data = await response.json()
     console.log(`Successfully fetched custom meet by ID from the server! ${data}`);
     return data
   } catch (error) {
@@ -32,7 +32,7 @@ const createCustomMeet = async (meet) => {
       body: JSON.stringify(meet)
     }
     const response = await fetch('http://localhost:3000/api/custom-meets', options)
-    const data = response.json()
+    const data = await response.json()
     console.log(`Successfully created custom meet! ${data}`);
   } catch (error) {
     console.log(`❌ Error creating custom meet => ${error.message}`);
@@ -49,7 +49,7 @@ const updateCustomMeet = async (id, meet) => {
       body: JSON.stringify(meet)
     }
     const response = await fetch(`http://localhost:3000/api/custom-meets/${id}`, options)
-    const data = response.json()
+    const data = await response.json()
     console.log(`Successfully updated custom meet! ${data}`);
   } catch (error) {
     console.log(`❌ Error updating custom meet => ${error.message}`);
@@ -62,9 +62,17 @@ const deleteCustomMeet = async (id, meet) => {
       method: 'DELETE'
     }
     const response = await fetch(`http://localhost:3000/api/custom-meets/${id}`, options)
-    const data = response.json()
+    const data = await response.json()
     console.log(`Successfully deleted custom meet! ${data}`);
   } catch (error) {
     console.log(`❌ Error deleting custom meet => ${error.message}`);
   }
+}
+
+export default {
+  getAllCustomMeets,
+  getCustomMeetByID,
+  createCustomMeet,
+  updateCustomMeet,
+  deleteCustomMeet
 }

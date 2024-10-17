@@ -64,7 +64,7 @@ const updateCustomMeet = async (req, res) => {
   try {
     const result = await retryOperation(operation)
     console.log(`Successfully updated custom meet!`);
-    res.status(200).json(result.rows[0])  // Successfully updated existing resource resource
+    res.status(200).json(result.rows)  // Successfully updated existing resource resource
   } catch (error) {
     console.log(`Error updating custom meet: ${error.stack}`);
     res.status(409).json({ message: error.message })
@@ -84,7 +84,7 @@ const deleteCustomMeet = async (req, res) => {
   try {
     const result = await retryOperation(operation)
     console.log(`Successfully deleted custom meet!`);
-    res.status(200).json(result.rows[0])  // Successfully deleted existing resource
+    res.status(200).json(result.rows)  // Successfully deleted existing resource
   } catch (error) {
     console.log(`Error deleting custom meet: ${error.stack}`);
     res.status(409).json({ message: error.message })
@@ -100,8 +100,8 @@ const getCustomMeets = async (req, res) => {
   }
   try {
     const result = await retryOperation(operation)
-    console.log(`Successfully fetched all custom meet!`);
-    res.status(200).json(result.rows[0])
+    console.log(`Successfully fetched all custom meets!`);
+    res.status(200).json(result.rows)
   } catch (error) {
     console.log(`Error getting all custom meets: ${error.stack}`);
     res.status(409).json({ message: error.message })
