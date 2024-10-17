@@ -28,7 +28,7 @@ const App = () => {
       element: <LocationEvents index="TX" />
     },
     {
-      path: '/events',
+      path: '/meets',
       element: <Events />
     }
   ])
@@ -36,12 +36,15 @@ const App = () => {
   return (
     <div className='font-sans'>
 
-      <header className='main-header pb-14 w-full shadow-lg border-b'>
-        <h1>FindMyMeet</h1>
+      <header className='main-header pb-14 w-full shadow-lg border-b flex items-center'>
+        <div className='flex '>
+          <h1>FindMyMeet</h1>
+          <img src='/app-icon.png' className='h-20 w-auto'></img>
+        </div>
 
         <div className='header-buttons space-x-4'>
           <Link to='/' role='button' className='transform transition-transform duration-300 hover:scale-110'>Home</Link>
-          <Link to='/events' role='button' className='transform transition-transform duration-300 hover:scale-110'>Events</Link>
+          <Link to='/meets' role='button' className='transform transition-transform duration-300 hover:scale-110'>Meets</Link>
         </div>
       </header>
 
