@@ -18,22 +18,33 @@ const CustomMeets = () => {
     fetchCustomMeets()
     
   }, [])
+
+  const deleteCustomMeet = async (id, meet) => {
+    try {
+      const result = await CustomMeetsAPI.deleteCustomMeet(id, meet)
+      window.location = '/custom-meets'
+    } catch (error) {
+      throw error
+    }
+  }
   
   console.log(customMeets);
   return ( 
     <div className="flex flex-col">
       <div className="my-4">
-        <Link to='/custom-meets/create'><button>Create A Meet</button></Link>
+        <Link to='/custom-meets/create'><button className="w-auto h-16">Create A Meet</button></Link>
       </div>
 
-      <div>
+      <div className="flex gap-4">
         {customMeets && customMeets.length > 0 ? (
-          customMeets.map((customMeet) => (
+          customMeets.map((customMeet, i) => (
             <div className="border w-72 p-4">
               <div className="flex justify-between items-center">
                 <h3>{customMeet.name}</h3>
-                <i class="fas fa-edit"></i>
-                <i class="fa-solid fa-trash"></i>
+                <Link to={`/custom-meets/edit/${customMeet.id}`}>
+                  <i className="fas fa-edit"></i>
+                </Link>
+                <i onClick={() => deleteCustomMeet(customMeet.id, customMeet)} className="fa-solid fa-trash"></i>
               </div>
               <p>Plates: {customMeet.plates}</p>
               <p>Bar: {customMeet.bar}</p>

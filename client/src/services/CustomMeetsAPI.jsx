@@ -12,7 +12,7 @@ const getAllCustomMeets = async () => {
 
 const getCustomMeetByID = async (id) => {
   try {
-    log.info('Attempting to fetch from the server...');
+    console.log('Attempting to fetch from the server...');
     const response = await fetch(`http://localhost:3000/api/custom-meets/${id}`)
     const data = await response.json()
     console.log(`Successfully fetched custom meet by ID from the server! ${data}`);
