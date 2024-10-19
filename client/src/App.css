@@ -13,7 +13,6 @@ header {
 }
 
 .main-header {
-    height: 30vh;
     width: 85vw;
     align-items: flex-end;
     position: relative;

@@ -33,14 +33,14 @@ const Locations = () => {
                 <Link to={`/states/${stateNames.state1}`}>
                     <img src="../../arizona-removebg-preview.png" className='w-full h-44 mb-2 transform transition-transform duration-300 hover:scale-110'/>
                 </Link>
-                <p className='text-center text-white font-bold text-lg'>{stateNames.state1}</p>
+                <p className='text-center font-bold text-lg'>{stateNames.state1}</p>
             </div>
 
             <div id='venue2button' className='flex flex-col justify-between w-52 uppercase font-bold m-4 p-4 border-2 rounded-lg shadow-lg bg-[--primary]'>
                 <Link to={`/states/${stateNames.state2}`}>
                     <img src="../../california-removebg-preview.png" className='w-full h-44 mb-2 transform transition-transform duration-300 hover:scale-110' />
                 </Link>
-                <p className='text-center text-white font-bold text-lg'>{stateNames.state2}</p>
+                <p className='text-center font-bold text-lg'>{stateNames.state2}</p>
             </div>
 
             <div id='venue3button' className='flex flex-col justify-between w-52 uppercase font-bold m-4 p-4 border-2 rounded-lg shadow-lg bg-[--primary]'>
@@ -48,14 +48,14 @@ const Locations = () => {
                 <Link to={`/states/${stateNames.state3}`}>
                     <img src="../../florida-map-isolated-on-transparent-260nw-654437647-removebg-preview.png" className='w-full h-44 mb-2 transform transition-transform duration-300 hover:scale-110' />
                 </Link>
-                <p className='text-center text-white font-bold text-lg'>{stateNames.state3}</p>
+                <p className='text-center font-bold text-lg'>{stateNames.state3}</p>
             </div>
 
             <div id='venue4button' className='flex flex-col justify-between w-52 uppercase font-bold m-4 p-4 border-2 rounded-lg shadow-lg bg-[--primary]'>
                 <Link to={`/states/${stateNames.state4}`}>
                     <img src="../../texas-removebg-preview.png" className='w-full h-44 mb-2 transform transition-transform duration-300 hover:scale-110' />
                 </Link>
-                <p className='text-center text-white font-bold text-lg'>{stateNames.state4}</p>
+                <p className='text-center font-bold text-lg'>{stateNames.state4}</p>
             </div>
         </div>
     )

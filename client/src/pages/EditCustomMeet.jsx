@@ -20,6 +20,8 @@ const EditCustomMeet = () => {
     isTested: false,
     price: 0
   })
+  const [showPopUp, setShowPopUp] = useState(false)
+
 
   // fetch custom meet data by it's id from the server
   useEffect(() => { 
@@ -46,6 +48,10 @@ const EditCustomMeet = () => {
       } else {
         // Add the option to the updated list
         updatedOptions = [...updatedOptions, option];
+      }
+
+      if ((option.name === 'Kabuki Deadlift Bar' || option.name === 'Texas Deadlift Bar' || option.name ==='Monolift') && meet.isTested){
+        setShowPopUp(true)
       }
 
       // Calculate the current price with the updated options
@@ -96,17 +102,13 @@ const EditCustomMeet = () => {
   }
 
   const updateTested = () => {
-    console.log('before updating tested: ', meet.isTested);
-    
     setMeet( (prev) => {
       return {
         ...prev,
         isTested: !prev.isTested
       }
     })
-
   }
-  console.log('after updating tested: ', meet.isTested);
 
   const updateName = (e) => {
     setMeet((prev) => {
@@ -119,29 +121,44 @@ const EditCustomMeet = () => {
 
   const submitToDatabase = async () => {    
     await CustomMeetsAPI.createCustomMeet(meet)
+    window.location = '/custom-meets'
   }
 
   return ( 
-    <div>
-      <h1>Edit Custom Meet</h1>
-      <div className="flex items-center justify-between">
-        <input type="checkbox" id="isTested" onClick={updateTested}/>
-        <label htmlFor="isTested" className="p-2">Is Tested</label>
-        <div className="mx-12 flex gap-2 w-auto h-20">
-          <button onClick={() => openModal('plates')}>Plates</button>
-          <button onClick={() => openModal('bars')}>Bars</button>
-          <button onClick={() => openModal('racks')}>Racks</button>
-          <button onClick={() => openModal('lifter_count')}>Lifter Count</button>
+    <div className="flex flex-col items-center p-6 max-w-4xl mx-auto">
+      <h1 className="mb-6">Edit Custom Meet</h1>
+      <div className="flex items-center justify-between mb-6 px-6 border-2 rounded-lg">
+        <label htmlFor="isTested" className="p-2 text-lg bg-gray-200 rounded-lg flex gap-2 items-center">
+        <input type="checkbox" id="isTested" onClick={updateTested} />
+          Tested
+        </label>
+        <div className="mx-12 my-10 flex items-center gap-4 w-auto h-20">
+          <button onClick={() => openModal('plates')} className="p-2 h-12 bg-sky-500 font-bold rounded-lg  hover:scale-110 transition duration-300">Plates</button>
+          <button onClick={() => openModal('bars')} className="p-2 h-12 bg-sky-500 font-bold rounded-lg  hover:scale-110 transition duration-300">Bars</button>
+          <button onClick={() => openModal('racks')} className="p-2 h-12 bg-sky-500 font-bold rounded-lg  hover:scale-110 transition duration-300">Racks</button>
+          <button onClick={() => openModal('lifter_count')} className="w-28 h-12 bg-sky-500 font-bold rounded-lg hover:scale-110 transition duration-300">Lifter Count</button>
         </div>
-        <div className="flex gap-4">
-          <input type="text" placeholder={meet.name} onChange={updateName}/>
-          <button onClick={(submitToDatabase)}>CREATE</button>
+        <div className="flex gap-4 ">
+          <input type="text" placeholder="Enter meet name" onChange={updateName} className="px-4 py-2 bg-gray-200 rounded-lg "/>
+          <button onClick={submitToDatabase} className="py-2 bg-sky-500 px-2 font-bold rounded-lg hover:scale-110 transition duration-300">UPDATE</button>
         </div>
       </div>
       {
+        showPopUp && (
+          <div className="fixed inset-0 flex flex-col items-center justify-center bg-opacity-50 backdrop-blur-md bg-gray-300 z-50" >
+            <div className="bg-gray-200 p-6 rounded-lg shadow-lg text-center border-2 border-red-500 w-10/12">
+              <h1 className="mb-4">⚠️ NOPE!</h1>
+              <h2 className="mb-4"> Sorry, you can't select this type of equipment in a tested meet.</h2>
+              <p className="mb-4"> Please choose another option <i>or</i> uncheck <b>tested</b></p>
+              <button onClick={() => setShowPopUp(false)} className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition duration-300">X</button>
+            </div>
+          </div>
+        )
+      }
+      {
         isModalOpen && (
           <div className="border-2 relative">
-            <button onClick={closeModal} className="w-12 bg-red-600 absolute top-0 right-0 ">X</button>
+            <button onClick={closeModal} className="absolute -top-4 -right-4 w-12 bg-red-600 text-white rounded-full hover:bg-red-700 transition duration-300 ">X</button>
             <ButtonModal 
               data={modalProps}
               selectedOptions={selectedOptions}
@@ -150,23 +167,23 @@ const EditCustomMeet = () => {
           </div>
         )
       }
-      <div className="border-2 p-4">
+      <div className="border-2 p-4 mt-2">
         <div className="flex justify-around items-center">
-          <h2 className="m-2">{meet.name}</h2>
+          <h2 className="m-2 text-2xl">{meet.name}</h2>
         </div>
-        <div className="m-4">
-          <p>Plates: {meet.plates}</p>
-          <p>Bar: {meet.bar}</p>  
-          <p>Rack: {meet.rack}</p>
-          <p>Lifter Count: {meet.lifter_count}</p>
-          <p>💰 ${meet.price}</p>
-          <p>Tested: {meet.isTested ? 'Confirmed': 'Unconfirmed/Untested'}</p>
-    
+        <div className="m-4 space-y-6">
+          <p className="text-lg font-semibold text-red-300">Plates: {meet.plates}</p>
+          <p className="text-lg font-semibold text-red-300">Bar: {meet.bar}</p>  
+          <p className="text-lg font-semibold text-red-300">Rack: {meet.rack}</p>
+          <p className="text-lg font-semibold text-blue-300">Lifter Count: {meet.lifter_count}</p>
+          <p className="text-lg font-semibold text-green-400">💰 ${meet.price}</p>
+          <p>Tested 💉: {meet.isTested ? <b>Confirmed</b>: <b>Unconfirmed/Untested</b>}</p>
         </div>
-      </div>
       <div className="flex justify-center gap-4">
-            <button className="w-auto h-12 bg-red-500" onClick={() => CustomMeetsAPI.deleteCustomMeet(meet.id, meet)}>Delete</button>
-          </div>
+        <button className="w-auto h-12 px-4 py-2 bg-red-500 rounded-lg hover:scale-110 transition duration-300" onClick={() => CustomMeetsAPI.deleteCustomMeet(meet.id, meet)}>Delete</button>
+      </div>
+
+      </div>
     </div>
 
     

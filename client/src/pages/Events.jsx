@@ -46,17 +46,17 @@ const Events = (  ) => {
 
   return (
     <div className="location-events p-6">
-      <header className="flex items-center space-x-4 justify-start mb-4">
+      <header className="flex items-center space-x-4 justify-start mb-4 ">
         
-          <label htmlFor="states" className="sr-only"></label>
-          <select name="state" id="states" onChange={handleDropdownChange}>
+          <label htmlFor="states" className="sr-only "></label>
+          <select name="state" id="states" onChange={handleDropdownChange} className="bg-gray-200 p-2 rounded-lg shadow-md">
             <option value="">Select a state to filter by...</option>
             <option value="AZ">Arizona</option>
             <option value="CA">California</option>
             <option value="TX">Texas</option>
             <option value="FL">Florida</option>
           </select>
-          <button onClick={showAllMeets} className="p-2 w-40">Show all Meets</button>
+          <button onClick={showAllMeets} className="p-2 w-40 shadow-lg border hover:scale-105 transition duration-300">Show all Meets</button>
         
       </header>
       <main>
